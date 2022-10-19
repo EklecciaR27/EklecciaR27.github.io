@@ -1,0 +1,417 @@
+
+
+body {
+    background-color:rgb(0, 0, 0);
+    transition: background-color 0.8s ease;
+}
+
+.line{
+    top: 10px;
+    position: fixed;
+    background-color: #000000;
+    left: 3px;
+    right: 3px;
+    height: 80px;
+    border: 2px solid  rgb(102,52,65);
+}
+
+
+#header1{
+    position: fixed;
+    margin-left: 1.3%;
+    margin-top: 60px;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(210,114,141);
+}
+
+/* #header2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(210,114,141);
+    background-color: rgb(102,52,65);
+} */
+.logo{
+    position:fixed;
+    margin-top: 7px;
+    margin-left: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: 15.5%;
+    margin-left: 47%;
+    font-size: 25px;
+    color: #af4c6b;
+}
+
+nav ul{
+    position:fixed;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 25px;
+    margin-left: 40%;
+    padding: 10px;
+    /* background-color: rgb(102,52,65); */
+}
+  
+nav li {
+    display: flexbox;
+    float: left;
+  }
+  
+nav li a {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 5%;
+    margin-left: 40%;
+    margin: 1px 30px;
+    text-decoration: none;
+}
+
+/* .active {
+    background-color: #000000;
+  } */
+
+nav li a:hover{
+    background-color: #d74172;
+    opacity: 90%;
+    padding: 5px 20px;
+}
+
+
+.light nav li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    text-align: center;
+    width: 5%;
+    margin: 1px 30px;
+    text-decoration: none;
+}
+
+
+.bg{
+    top: 23%;
+    left: 6%;
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bgconcert{
+    top: 25%;
+    left: 6%;
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.konten1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d74172;
+    font-size: 40px;
+    margin-top: 20%;
+    margin-left: 47%;
+}
+
+.konten2{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d74172;
+    background-color: aliceblue;
+    font-size: 30px;
+    margin-top: 15.5%;
+    margin-left: 47%;
+}
+
+
+.konten1concert{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d74172;
+    font-size: 40px;
+    margin-top: 14%;
+    margin-left: 47%;
+}
+
+.konten2concert{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d74172;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-top: 13.5%;
+    margin-left: 47%;
+}
+
+
+.city{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #faeef2;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 52%;
+}
+
+.date{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #faeef2;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 850px;
+}
+
+.aboutme{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #faeef2;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 12px;
+}
+
+.tentangsaya{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 47%;
+    font-size: 20px;
+    color: #d74172;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.socmed{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 75%;
+}
+
+
+footer{
+    position: fixed;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    color:rgb(93,54,67);
+    opacity: 50%;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px ;
+    text-align: center;
+    font-family:Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+#myBtn{
+    position: absolute;
+    color: #ffffff;
+    background-color: #af4c6b;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    top: 73%;
+    left: 48%;
+
+}
+
+#addevent{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 410px;
+    margin-left: 60%;
+}
+
+.tombol{
+    position: fixed;
+    color: #faeef2;
+    padding: 10px;
+    font-size: 10px;
+    top: 2.6%;
+    left: 93%;
+}
+
+.tombol button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+}
+
+.tombol button.darkmode{
+    background-color: #faeef2;
+    display: none;
+}
+
+.tombol button.lightmode{
+    background-color: black;
+}
+
+.light .tombol button.darkmode{
+    display: inline;
+}
+
+.light .tombol button.lightmode{
+    display: none;
+}
+
+body.light{
+    background-color: rgb(248, 236, 249);
+}
+
+.light .konten1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d74172;
+    font-size: 40px;
+    margin-top: 20%;
+    margin-left: 47%;
+}
+
+.light .konten2{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d74172;
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 15.5%;
+    margin-left: 47%;
+
+}
+
+.light .konten2concert{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d74172;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 13.5%;
+    margin-left: 47%;
+}
+
+.light .city{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 52%;
+}
+
+.light .date{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 850px;
+}
+
+.light #header1{
+    position: fixed;
+    margin-left: 1.3%;
+    margin-top: 60px;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.bginput{
+    top: 15%;
+    left: 3%;
+    position:absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p_input{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 30px;
+    color: #f23370;
+}
+
+.formdata{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 13.5%;
+    margin-left: 50%;
+}
+
+.btn{
+    border-radius: 20px;
+	background-color:  #df36b7;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.add_post{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 50%;
+}
+
+form .input-box{
+    margin: 20px;
+    width: 200px;
+}
+
+.input-box .details{
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+
+.input-box input{
+    height: 30px;
+    width: 80%;
+    outline : none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border : 1 px solid black;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.iconform{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 42%;
+}
+
+.header_form{
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    top: 50%;
+}
